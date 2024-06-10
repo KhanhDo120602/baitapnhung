@@ -1,0 +1,33 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "How are you?"],
+      "responses": ["Hello!", "Hi there!", "Greetings!"]
+    },
+    {
+      "tag": "led_on",
+      "patterns": ["Turn on the LED", "LED on","led on","on led",",turn on the LED?"],
+      "responses": ["The LED is now on."]
+    },
+    {
+      "tag": "relay_on",
+      "patterns": ["Turn on the relay", "relay on", "turn on the relay?", "on relay"],
+      "responses": ["The relay is now on."]
+    }, {
+      "tag": "relay_off",
+      "patterns": ["Turn off the relay", "relay off", "turn on the relay","off relay"],
+      "responses": ["The relay is now off."]
+    },
+    {
+      "tag": "led_off",
+      "patterns": ["Turn off the LED", "LED off","led off","off led", "turn off the LED"],
+      "responses": ["The LED is now off."]
+    },
+    {
+      "tag": "temperature",
+      "patterns": ["What is the temperature?", "Temperature", "tell me the temperature","tempperature","temp"],
+      "responses": ["The current temperature is {temp} degrees Celsius."]
+    }
+  ]
+}
